@@ -6,6 +6,7 @@ metadata:
     name: web
     app: demo
 spec:
+  nodeName: worker
   containers:
     - name: python
       image: akhilraaj13/py-red-sql
