@@ -6,6 +6,7 @@ metadata:
     name: mysql
     app: demo
 spec:
+  nodeName: master
   containers:
     - name: mysql
       image: mysql:5.7.25
